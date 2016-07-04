@@ -115,9 +115,9 @@ updateCore() {
     cp './scripts/.#install-sdk-tmp.sh' ./scripts/install-sdk.sh
     git checkout -- ./scripts/install-sdk.sh
 
-    git remote add c9 https://github.com/c9/core 2> /dev/null || true
-    git fetch c9
-    git merge c9/master --ff-only || \
+    git remote add c10 https://github.com/wb9688/cloud10.git 2> /dev/null || true
+    git fetch c10
+    git merge c10/master --ff-only || \
         echo "${yellow}Couldn't automatically update sdk core ${resetColor}"
 
     ## TODO use fetched script?
@@ -132,7 +132,7 @@ updateCore() {
 
 
 installGlobalDeps() {
-    if ! [[ -f ~/.c9/installed ]]; then
+    if ! [[ -f ~/.c/installed ]]; then
         if [[ $os == "windows" ]]; then
             URL=https://raw.githubusercontent.com/cloud9ide/sdk-deps-win32
         else
@@ -169,4 +169,4 @@ echo -e "nak\n.gitignore" >  node_modules/.gitignore
 
 echo "Success!"
 
-echo "run '${yellow}node server.js -p 8080 -a :${resetColor}' to launch Cloud9"
+echo "run '${yellow}node server.js :${resetColor}' to launch Cloud10"
