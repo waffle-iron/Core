@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/cloud10-ide/core.png?label=ready&title=Ready)](https://waffle.io/cloud10-ide/core)
 # [Cloud10](https://cloud10-ide.github.io/)
 
 This is a fork of Cloud9 meant as a self-hosted cloud IDE. 
