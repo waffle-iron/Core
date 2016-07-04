@@ -116,7 +116,7 @@ function main(argv, config, onLoaded) {
     
     startConfigs(notDelayed, function() {
         startConfigs(delayed, function() {
-            console.log("Cloud9 is up and running");
+            console.log("Cloud10 is up and running");
         });
     });
     

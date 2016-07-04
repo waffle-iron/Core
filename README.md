@@ -1,4 +1,4 @@
-# Cloud10
+# [Cloud10](https://cloud10-ide.github.io/)
 
 This is a fork of Cloud9 meant as a self-hosted cloud IDE. 
 
@@ -6,7 +6,7 @@ This is a fork of Cloud9 meant as a self-hosted cloud IDE.
 
 Follow these steps to install Cloud10:
 
-    git clone git://github.com/wb9688/cloud10.git
+    git clone https://github.com/cloud10-ide/core.git
     cd cloud10
     scripts/install-sdk.sh
     

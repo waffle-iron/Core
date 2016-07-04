@@ -115,7 +115,7 @@ updateCore() {
     cp './scripts/.#install-sdk-tmp.sh' ./scripts/install-sdk.sh
     git checkout -- ./scripts/install-sdk.sh
 
-    git remote add c10 https://github.com/wb9688/cloud10.git 2> /dev/null || true
+    git remote add c10 https://github.com/cloud10-ide/core.git 2> /dev/null || true
     git fetch c10
     git merge c10/master --ff-only || \
         echo "${yellow}Couldn't automatically update sdk core ${resetColor}"
@@ -169,4 +169,4 @@ echo -e "nak\n.gitignore" >  node_modules/.gitignore
 
 echo "Success!"
 
-echo "run '${yellow}node server.js :${resetColor}' to launch Cloud10"
+echo "run '${yellow}~/.c9/node/bin/node server.js${resetColor}' to launch Cloud10"
