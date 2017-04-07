@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/Intelora/core.png?label=ready&title=Ready)](https://waffle.io/Intelora/core)
 [![Stories in Ready](https://badge.waffle.io/VATSIM-UK/core.png?label=ready&title=Ready)](https://waffle.io/VATSIM-UK/core)
 [![Stories in Ready](https://badge.waffle.io/cloud10-ide/core.png?label=ready&title=Ready)](https://waffle.io/cloud10-ide/core)
 # [Cloud10](https://cloud10-ide.github.io/)
